@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Raleway&display=swap');
+body{
+  font-family: 'Inter', sans-serif;
+  
+}
+
+.menu {
+
+    text-decoration: none;
+    /* font-family: 'Cairo', sans-serif; */
+    color: #212121;
+    position: relative;
+    padding: 5px 0px;
+    font-family: "Raleway";
+    font-weight: bold;
+   
+}
+
+.active{
+  border-bottom: 2px solid #F44336;
+}
+
+
+.hero_banner_img {
+  /* position: absolute; */
+  /* right: 40px;
+  top: 70px; */
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  padding: 4px;
+  position: relative;
+  margin-top: -80px;
+  
+  }
+
+  .logo_image{
+    padding: 8px;
+  }
+
+  .form_search{
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+
+  .search_field{
+    width: 90%;
+    border-radius: 0px;
+  }
+  
+  @media(min-width:888px) and (max-width:1200px){
+    .exercice_headline{
+      position: relative !important;
+    }
+  }
+  
+  .footer_menu{
+    padding: 0px 10px;
+    color:#F5F5F5;
+    text-decoration: none;
+  }

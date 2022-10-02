@@ -1,0 +1,19 @@
+.menu{
+    text-decoration: none;
+    color:black
+}
+
+@media(max-width:700px){
+    .image_category{
+        width: 100%;
+    }
+}
+
+.video_title{
+    color:#F44336
+}
+
+.Footer_background{
+    background: url('../images/background_wave.svg');
+    background-size: cover;
+}
